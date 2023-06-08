@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width" />
+      <title>GogelNet Network Services | Home</title>
+      <!-- Favicons -->
+      <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+      <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon.ico">
+      <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon.ico">
+      <link rel="stylesheet" href="assets/css/components.css">
+      <link rel="stylesheet" href="assets/css/responsee.css">
+      <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
+	   <link rel="stylesheet" href="assets/css/home.css">
+      <!-- CUSTOM STYLE -->
+      <link rel="stylesheet" href="assets/css/template-style.css">
+      <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
+      <script type="text/javascript" src="assets/js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="assets/js/modernizr.js"></script>
+      <script type="text/javascript" src="assets/js/responsee.js"></script>
+      <script type="text/javascript" src="assets/js/disable-key.js"></script>
+      <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+   </head>
+   <body class="size-1140">
+      <!-- TOP NAV WITH LOGO -->
+      <header>
+         <nav>
+            <div class="line">
+               <div class="top-nav">
+                  <div class="s-12 l-3">
+                     <div class="box" style="border-top: solid 0.8em rgba(237,44,0,1.00)"><a href="home.html"><img src="assets/images/banner.gif"></a></div>
+                     <div class="box" style="margin-top:5%;">
+                        <h3 style="text-align:center; padding-bottom:5%">You are now login!</h3>
+						      $(if login-by == 'trial')
+							   <div style="margin-top:20px; text-align: center; color:#fff;"><i style="font-size:50px;" class="icon icon-user-circle-o">&#xf2be;</i> <h3>Trial User</h3></div>
+						      $(elif login-by != 'mac')
+							   <div style="margin-top:20px; text-align: center; color:#fff;"><i style="font-size:50px;" class="icon icon-user-circle-o">&#xf2be;</i> <h3 id="user">$(username)</h3></div>
+						      $(endif)
+						      <h6 style="text-align:center; padding-bottom:-15%">Please enjoy the Internet service.</h6>
+						      <h5 style="text-align:center; padding-bottom:-15%">To view your account status. <a style="color: #0013FF;" href="status">click here</a></h5>
+                     </div>
+                  </div>
+                  <p class="nav-text">Menu</p>
+                  <ul class="top-ul chevron">
+                     <div class="s-12 l-9">
+                        <div class="right">
+                           <li><a href="home.html">Home</a></li>
+                           $(if logged-in == 'yes')
+                           <li><a href="status">My Account</a></li>
+                           $(endif)
+                           <li><a> Internet Rates</a>
+                              <ul>
+                                 <li><a href="internet/broadband.html">Broadband Rates</a></li>
+                                 <li><a href="internet/hotspot.html">Hotspot Rates</a></li>
+                                 <li><a href="internet/postpaid.html">Postpaid Rates</a></li>
+                              </ul>
+                           </li>
+                           <li><a href="about.html">About</a></li>
+                        </div>
+                     </div>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <section>
+         <!-- CAROUSEL -->  	
+         <div id="carousel">
+            <div id="owl-demo" class="owl-carousel owl-theme">
+               <div class="item">
+                  <img src="assets/images/first.jpg" alt="">      
+                  <div class="carousel-text">
+                     <div class="line">
+                        <div class="s-12 l-9 right">
+                           <h2>Wireless Internet Hotspot</h2>
+                        </div>
+                        <div class="s-12 l-9 right">
+                           <p>GogelNet - Network Services</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <img src="assets/images/second.jpg" alt="">      
+                  <div class="carousel-text">
+                     <div class="line">
+                        <div class="s-12 l-9 right">
+                           <h2>Web Design & Programming</h2>
+                        </div>
+                        <div class="s-12 l-9 right">
+                           <p>GogelNet - Network Services</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="item">
+                  <img src="assets/images/third.jpg" alt="">      
+                  <div class="carousel-text">
+                     <div class="line">
+                        <div class="s-12 l-9 right">
+                           <h2>Computer Services</h2>
+                        </div>
+                        <div class="s-12 l-9 right">
+                           <p>Hardware & Software
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- FIRST BLOCK --> 	
+         <div id="first-block">
+            <div class="line">
+               <h2>GogelNet Network Services</h2>
+               <p class="subtitile">Features</p>
+               <div class="margin">
+                  <div class="s-12 l-3 margin-bottom">
+                     <i class="icon-paperplane_ico icon2x"></i>
+                     <h3>Wi-Fi</h3>
+                     <p>Wireless Internet Hotspot</p>
+                  </div>
+                  <div class="s-12 l-3 margin-bottom">
+                     <i class="icon-star icon2x"></i>
+                     <h3>Services</h3>
+                     <p>Services & Install Computer</p>
+                  </div>
+                  <div class="s-12 l-3 margin-bottom">
+                     <i class="icon-message icon2x"></i>
+                     <h3>Programming</h3>
+                     <p>Web Programming & Design, Program Application</p>
+                  </div>
+                  <div class="s-12 l-3 margin-bottom">
+                     <i class="icon-mail icon2x"></i>
+                     <h3>Networking</h3>
+                     <p>Installing Router, Local Area Network (LAN), Installing Hotspot, etc.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- SECOND BLOCK --> 	
+         <div id="second-block">
+            <div class="line">
+               <div class="margin-bottom">
+                  <div class="margin">
+                     <article class="s-12 l-8 center">
+                        <h1>GogelNet Offers</h1>
+                        <p class="margin-bottom"> GOGELNET offers repair & services such as (Laptops, PC, Modem, Router, Configuration, Programs) and more.</p>
+                        <a class="button s-12 l-4 center" href="services.html">Read more</a>  			
+                     </article>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- GALLERY --> 	
+         <div id="third-block">
+            <div class="line">
+               <h2>GogelNet Gallery</h2>
+               <p class="subtitile">Learn new updates from us.</p>
+               <div class="margin">
+                  <div class="s-12 l-3">
+                     <img src="assets/images/Fast_WiFi_Service.png">      
+                     <p class="subtitile">Fast internet that suits for your plan.
+                     </p>
+                  </div>
+                  <div class="s-12 l-3">
+                     <img src="assets/images/Wi-Fi.png">      
+                     <p class="subtitile">No additional payment for Wi-Fi Routers when you subscription for <a style="color: #0013FF;" href="internet/broadband.html">Broadband Rates</a>.
+                     </p>
+                  </div>
+                  <div class="s-12 l-3">
+                     <img src="assets/images/Long_Range_WiFi.png">      
+                     <p class="subtitile">Network coverage more wider and continue to expand.
+                     </p>
+                  </div>
+                  <div class="s-12 l-3">
+                     <img src="assets/images/Data_Server.png">      
+                     <p class="subtitile">Equipment with data servers to ensure the quality of speed.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="fourth-block">
+            <div class="line">
+               <div id="owl-demo2" class="owl-carousel owl-theme">
+                  <div class="item">
+                     <h2>Amazing GOGELNET</h2>
+                     <p class="s-12 l-8 center"> GOGELNET uses multiple ISP to ensure the quality of the customers reguarding the internet speed will never be down.
+                     </p>
+                  </div>
+                  <div class="item">
+                     <h2>Responsive components</h2>
+                     <p class="s-12 l-8 center"> GOGELNET uses virtual server to ensure the fast transmit network.
+                     </p>
+                  </div>
+                  <div class="item">
+                     <h2>Wi-Fi ready</h2>
+                     <p class="s-12 l-8 center"> GOGELNET uses 2.4/5Ghz Wi-Fi ready to ensure the quality of internet and maximize bandwidth to enjoy Wi-Fi.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- FOOTER -->   
+      <footer>
+         <div class="line">
+            <div class="s-12 l-12">
+               <p class="left" style="text-align:left">Copyright 2018-<label id="year"></label>, GogelNet Network Services<br>
+				      174 Villamor Street, Gata, Jimenez<br>
+                  +639457664949
+               </p>
+            </div>
+         </div>
+      </footer>
+      <script type="text/javascript">
+         const year = new Date().getFullYear();
+         document.getElementById("year").textContent = year;
+      </script>
+      <script type="text/javascript" src="assets/owl-carousel/owl.carousel.js"></script>   
+      <script type="text/javascript">
+         jQuery(document).ready(function($) {  
+           $("#owl-demo").owlCarousel({
+               slideSpeed : 300,
+               autoPlay : true,
+               navigation : false,
+               pagination : false,
+               singleItem:true,
+               transitionStyle : "fadeUp"
+            });
+           $("#owl-demo2").owlCarousel({
+               slideSpeed : 300,
+               autoPlay : true,
+               navigation : false,
+               pagination : true,
+               singleItem:true
+            });
+         });	
+      </script> 
+      <!--Start of Telegram Script-->
+         <script type="text/javascript" src="assets/js/intergram.js"></script>
+         <script id="intergram" type="text/javascript" src="https://www.intergram.xyz/js/widget.js"></script>
+      <!--End of Telegram Script-->
+   </body>
+</html>
